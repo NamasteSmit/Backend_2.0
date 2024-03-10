@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 const mongoose = require('mongoose');
 
-mongoose.connect("mongodb+srv://smitpatel1305:Smit2004@cluster0.udla4ro.mongodb.net/newuser_app");
+mongoose.connect("");
 
 const users = mongoose.model('Users',{
     name:String,
